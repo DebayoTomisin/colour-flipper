@@ -8,6 +8,6 @@ function changeColor() {
     let y = Math.round(Math.random() * 256);
     let z = Math.round(Math.random() * 256);
 
-    let color = `rgba(${x}, ${y}, ${z}, .3)`
+    let color = `rgb(${x}, ${y}, ${z})`
     container.style.backgroundColor = color;
 }
